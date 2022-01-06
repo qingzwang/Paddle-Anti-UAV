@@ -29,7 +29,7 @@ We use [PP-YOLO](https://github.com/PaddlePaddle/PaddleDetection/tree/release/2.
 * Move `anti_uav.yml` to `configs/datasets`, move `ppyolo_r50vd_dcn_1x_antiuav.yml` to `configs/ppyolo` and move `ppyolo_r50vd_dcn_antiuav.yml`
 to `configs/ppyolo/_base`.
 * Keep the value of `anchors` in `configs/ppyolo/_base/ppyolo_reader.yml` the same as `ppyolo_r50vd_dcn_antiuav.yml`.
-* run `python -m paddle.distributed.launch --log_dir=./ppyolo_dygraph/ --gpus 0,1,2,3,4,5,6,7 tools/train.py -c configs/ppyolo/ppyolo_r50vd_dcn_1x_antiuav.yml &>ppyolo_dygraph.log 2>&1 &`. 
+* Run `python -m paddle.distributed.launch --log_dir=./ppyolo_dygraph/ --gpus 0,1,2,3,4,5,6,7 tools/train.py -c configs/ppyolo/ppyolo_r50vd_dcn_1x_antiuav.yml &>ppyolo_dygraph.log 2>&1 &`. 
 Note that you may change the arguments, such as `batch_size` and `gups`.
 
 
