@@ -32,4 +32,7 @@ to `configs/ppyolo/_base`.
 * Run `python -m paddle.distributed.launch --log_dir=./ppyolo_dygraph/ --gpus 0,1,2,3,4,5,6,7 tools/train.py -c configs/ppyolo/ppyolo_r50vd_dcn_1x_antiuav.yml &>ppyolo_dygraph.log 2>&1 &`. 
 Note that you may change the arguments, such as `batch_size` and `gups`.
 
+## Inference
+Please refer to the infernce section on this [webpage](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.3/docs/tutorials/GETTING_STARTED.md). You can just switch the configeration file and trained model to your own files.
+
 
