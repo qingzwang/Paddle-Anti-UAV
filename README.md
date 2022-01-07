@@ -36,5 +36,6 @@ Note that you may change the arguments, such as `batch_size` and `gups`.
 Please refer to the infernce section on this [webpage](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.3/docs/tutorials/GETTING_STARTED.md). You can just switch the configeration file and trained model to your own files.
 
 ![](https://github.com/qingzwang/Paddle-Anti-UAV/blob/main/demo1.gif)
+![](https://github.com/qingzwang/Paddle-Anti-UAV/blob/main/demo.gif)
 
 
